@@ -1,0 +1,8 @@
+
+{"data":
+    {"name":"Damage","rank":1,"prestige":0,"level":14,"experience":65314,"created_at":"2020-09-30","updated_at":"2020-09-30",
+"stats":
+        {"kills":1332,"deaths":861,"playtime":40428,"melee_kills":4,"gun_kills":505,"launcher_kills":793,"bomb_kills":30,"headshot_kills":405,"headshot_deaths":296,"team_kills":0,"team_deaths":0,"n_won":54,"n_drew":0,"n_lost":48,"m_won":0,"m_drew":0,"m_lost":0
+        }
+    }
+}
