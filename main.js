@@ -18,7 +18,7 @@ for(const file of commandFiles) {
 
 client.once('ready', () =>  {
     console.log('QPang StatBot is online!');
-    client.user.setActivity('!stats <username>', {type: 'PLAYING'}).catch(console.error);
+    client.user.setActivity('!stats <name>', {type: 'PLAYING'}).catch(console.error);
 });
 
 client.on('message', message => {
