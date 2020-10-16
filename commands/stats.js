@@ -3,7 +3,7 @@ const qpangapi = require('../api/qpangapi.js');
 
 module.exports = {
     name: 'stats',
-    description: "Checks your QPang stats", 
+    description: "Checks the users QPang stats", 
     execute(message, args){
             let username = args[0]; 
             if(!username) return message.channel.send('Please provide a username');
