@@ -113,6 +113,16 @@ module.exports = {
                         embed.setThumbnail('https://i.imgur.com/S414Ilb.png')
                     } else if(ret.level == 40) {
                         embed.setThumbnail('https://i.imgur.com/kjTIbaJ.png')
+                    } else if(ret.level == 41) {
+                        embed.setThumbnail('https://i.imgur.com/1X6KmVV.png')
+                    } else if(ret.level == 42) {
+                        embed.setThumbnail('https://i.imgur.com/8RQ23my.png')
+                    } else if(ret.level == 43) {
+                        embed.setThumbnail('https://i.imgur.com/HW8iW19.png')
+                    } else if(ret.level == 44) {
+                        embed.setThumbnail('https://i.imgur.com/sqUsAlJ.png')
+                    } else if(ret.level == 45) {
+                        embed.setThumbnail('https://i.imgur.com/WGrHnK1.png')
                     }
                     message.channel.send(embed);
                 }
