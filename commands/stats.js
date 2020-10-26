@@ -28,7 +28,7 @@ module.exports = {
                         {name: 'Draws', value: ret.draws, inline: true},
                         {name: 'Playtime', value: (ret.playtime/3600).toFixed(0) + 'h', inline: true},
                         {name: 'Matches', value: ret.matches, inline: true}, 
-                        {name: 'Avg. Kills per 10 Minutes', value: (ret.kills/(ret.playtime/600)).toFixed(0), inline: true}
+                        {name: 'Avg. Kills/10 Minutes', value: (ret.kills/(ret.playtime/600)).toFixed(0), inline: true}
                     )
                     .setColor(0xFD4545)
                     .setTimestamp()
